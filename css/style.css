@@ -1,0 +1,126 @@
+/*designed of 360px*/
+html{
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  background-image: linear-gradient(grey, white);
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body{
+  line-height: 1.2em;
+  background-color: #000000;
+  background-image: linear-gradient(white, grey);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header_title{
+  column-count: 2;
+  overflow: visible;
+  padding: 1em;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.header_name{
+  font-size: 18px;
+  line-height: 1.9em;
+  text-align: center;
+  display: block;
+  color: black;
+  margin-right: auto;
+  padding: 1.5em;
+  min-width: 15%;
+  min-height: 15%;
+}
+
+.header_logo{
+  width: 100%;
+  height: auto;
+  background-color:grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid grey;
+  text-align: center;
+  min-width: 25%;
+  min-height: 25%;
+}
+
+.header_logo{
+  width: 100%;
+  height: auto;
+  background-color:grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid grey;
+  text-align: center;
+  min-width: 25%;
+  min-height: 25%;
+}
+
+.caption{
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+h5{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projects{
+  align-items: center;
+}
+
+div.project_table{
+  margin: 2em;
+  padding: 1em;
+  width: 100%;
+  overflow-x:auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 1em;
+  -webkit-align-items: center;
+  align-items: center;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.project_img{
+  width: 20%;
+  height: auto;
+  background-color:grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid grey;
+  text-align: center;
+  min-width: 20%;
+  min-height: 20%;
+  align-items: center;
+}
+
+.project_url{
+  width: 33%;
+  height: auto;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
