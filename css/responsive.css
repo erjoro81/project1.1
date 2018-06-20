@@ -8,6 +8,7 @@
   flex-wrap: wrap;
 }
 
+/*Designed for Nexus 360px*/
 @media screen and (max-width:361px) {
   .header {
     width: 100%;
